@@ -37,21 +37,21 @@ def get_mode(sorted_data):
         elif 85 < weight < 95:
             mode_data_for_range["85-95"] += occurence
         elif 95 < weight < 105:
-            mode_data_for_range["95-105"] += occurence
+            # write code
         elif 105 < weight < 115:
-            mode_data_for_range["105-115"] += occurence
+            # write code
         elif 115 < weight < 125:
-            mode_data_for_range["115-125"] += occurence
+            # write code
         elif 125 < weight < 135:
-            mode_data_for_range["125-135"] += occurence
+            # write code
         elif 135 < weight < 145:
-            mode_data_for_range["135-145"] += occurence
+            # write code
         elif 145 < weight < 155:
-            mode_data_for_range["145-155"] += occurence
+            # write code
         elif 155 < weight < 165:
-            mode_data_for_range["155-165"] += occurence
+            # write code
         elif 165 < weight < 175:
-            mode_data_for_range["165-175"] += occurence
+            # write code
     mode_range, mode_occurence = 0, 0
     for range, occurence in mode_data_for_range.items():
         if occurence > mode_occurence:
@@ -64,7 +64,7 @@ with open('data.csv', newline='') as f:
     file_data = list(reader)
 
 #To remove headers from CSV
-file_data.pop(0)
+# write code
 
 total_weight = 0
 total_entries = len(file_data)
