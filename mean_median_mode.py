@@ -71,8 +71,8 @@ total_entries = len(file_data)
 sorted_data = []
 
 for person_data in file_data:
-    total_weight += float(person_data[2])
-    sorted_data.append(float(person_data[2]))
+    total_weight += float(person_data[1])
+    sorted_data.append(float(person_data[1]))
 
 sorted_data.sort()
 
